@@ -16,7 +16,7 @@ describe("Instagram Login Test suite", function () {
       .type("qualestest123");
     //Spy login button
     cy.get(".sqdOP > .qF0y9")
-    //Click the login button
+    //Click the login button.
     .click();
     //Spy search box
     cy.get(".eyXLr")
